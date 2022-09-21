@@ -1,0 +1,19 @@
+put all the express configuration in app.js file
+
+app.js file is mainly used for middleware declaration.app.js is the main app of our project which contains small projects like tour app and user app
+
+JSON.parse() converts the json string into the array of javascript object.
+
+remember that when we exports data from a file using exports objects, and when import everything into one object, then all of the data that was on exports , now gonna be on tourController. and we can use tourController.getAllTours and such
+
+process.env gives the  object of all the environment variables defined in the node app.
+
+in the .eslintrc.json file set the end of line auto to avoid error in the whole project.
+
+// This is just a param middleware to check whether the entered id is valid or not.
+
+req.query is used to find the query coming from the query string.
+
+we can not use virtual property in querying to the db like Tour.find().where(durationWeeks).equals(1) cant be used.
+
+query middleware allows us to run functions before or after a certain query is executed.

@@ -1,0 +1,18 @@
+npm i express@4
+npm i morgan
+npm i dotenv-used inorder to connect out config.env file with our node.js application.-to set environment variables in the node application.
+npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
+npm i mongoose@5
+npm i slugify
+npm i ndb --global
+npm i validator
+npm i bcrypt
+npm i jsonwebtoken
+npm i express-rate-limit
+npm i helmet
+npm i express-mongo-sanitize
+npm i xss-clean
+npm i hpp
+npm i pug
+npm i multer
+npm i sharp
