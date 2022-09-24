@@ -183,11 +183,11 @@ tourSchema.pre(/^find/, function (next) {
   next();
 });
 
-tourSchema.post(/^find/, function (doc, next) {
-  // console.log(doc);
-  console.log(`query took ${Date.now() - this.start} milliseconds`);
-  next();
-});
+// tourSchema.post(/^find/, function (doc, next) {
+//   // console.log(doc);
+//   console.log(`query took ${Date.now() - this.start} milliseconds`);
+//   next();
+// });
 
 // AGGREGATION MIDDLEWARE
 // aggregation middleware allows us to add hooks before or after an aggregation happens.
