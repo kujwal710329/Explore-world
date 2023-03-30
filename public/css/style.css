@@ -8,7 +8,7 @@
 }
 
 ::selection {
-  background-color: #55c57a;
+  background-color: #71c48c;
   color: #fff;
 }
 
@@ -1112,11 +1112,11 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#f5cea1),
+    to(#7af8d0)
   );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
-  opacity: 0.7;
+  background-image: linear-gradient(to right bottom, #febeab, #7af8d0);
+  opacity: 0.4;
 }
 .card__picture-img {
   -o-object-fit: cover;

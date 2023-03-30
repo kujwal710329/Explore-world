@@ -107,6 +107,8 @@ app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
 app.use('/api/v1/bookings', bookingRouter);
 
+// if routes is not handled above then  this middleware will run. and app.all is used for all the http methods like get put post delete
+// * is for everything which is not handled in the above middleware
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
